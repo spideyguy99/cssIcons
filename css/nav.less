@@ -1,0 +1,61 @@
+nav{
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 40px;
+  width: 100%;
+  background-color: @primary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navWrapper{
+  position: fixed;
+  top: 40px;
+  right: 0;
+  height: 200px;
+  width: 100px;
+  background-color: @secondary;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+a{
+  color: @backgroundcolor;
+  margin: 0 8px;
+  text-decoration: none;
+}
+
+.dropDownMenu{
+  height: 100%;
+  width: 40px;
+  background-color: @primary;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+}
+
+.dropDownFa{
+  justify-content: center;
+  align-items: center;
+}
+
+.toggle{
+  display: none;
+}
+
+@media screen and (min-width: 600px){
+  .dropDownMenu{
+    display: none;
+  }
+  .navWrapper{
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-color: transparent;
+    flex-direction: row;
+    top: 0;
+  }
+}

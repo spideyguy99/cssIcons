@@ -1,0 +1,98 @@
+* {
+  border-radius: 9px;
+  margin: 0;
+  transition: 0.2s;
+  color: black;
+}
+body {
+  background-color: #422040;
+  width: 100%;
+  height: 100%;
+}
+.wrapper {
+  height: 100px;
+  width: 300px;
+  background-color: #E57A44;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+.wrapper .fa-adjust {
+  color: lime;
+}
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 40px;
+  width: 100%;
+  background-color: #E57A44;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navWrapper {
+  position: fixed;
+  top: 40px;
+  right: 0;
+  height: 200px;
+  width: 100px;
+  background-color: #E3D985;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  color: #422040;
+  margin: 0 8px;
+  text-decoration: none;
+}
+.dropDownMenu {
+  height: 100%;
+  width: 40px;
+  background-color: #E57A44;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+}
+.dropDownFa {
+  justify-content: center;
+  align-items: center;
+}
+.toggle {
+  display: none;
+}
+@media screen and (min-width: 600px) {
+  .dropDownMenu {
+    display: none;
+  }
+  .navWrapper {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-color: transparent;
+    flex-direction: row;
+    top: 0;
+  }
+}
+footer {
+  background-color: #E57A44;
+  height: 40px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+.home {
+  font-family: "Agency FB", serif;
+}
+.about {
+  font-family: Arial, serif;
+}
+.contact {
+  font-family: Calibri, serif;
+}
+/*# sourceMappingURL=style.css.map */
