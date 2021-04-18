@@ -2,12 +2,13 @@
   border-radius: 9px;
   margin: 0;
   transition: 0.2s;
-  color: black;
+  color: #422040;
 }
 body {
   background-color: #422040;
   width: 100%;
   height: 100%;
+  display: flex;
 }
 .wrapper {
   height: 100px;
@@ -16,9 +17,7 @@ body {
   font-size: 20px;
   margin-top: 50px;
   margin-left: 10px;
-}
-.wrapper .fa-adjust {
-  color: lime;
+  color: #422040;
 }
 nav {
   position: fixed;
@@ -28,7 +27,7 @@ nav {
   width: 100%;
   background-color: #E57A44;
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
 }
 .navWrapper {

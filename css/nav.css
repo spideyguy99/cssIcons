@@ -1,0 +1,51 @@
+nav {
+  position: absolute;
+  top: 0;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  right: 0;
+  background-color: red;
+}
+.navWrapper {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  height: 200px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+}
+a {
+  margin: 0 8px;
+  text-decoration: none;
+}
+.dropDownMenu {
+  height: 100%;
+  width: 40px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+}
+.dropDownFa {
+  justify-content: center;
+  align-items: center;
+}
+.toggle {
+  display: none;
+}
+@media screen and (min-width: 600px) {
+  .dropDownMenu {
+    display: none;
+  }
+  .navWrapper {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-color: transparent;
+    flex-direction: row;
+    top: 0;
+  }
+}
+/*# sourceMappingURL=nav.css.map */
