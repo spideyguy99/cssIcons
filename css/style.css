@@ -1,9 +1,9 @@
 * {
-  border-radius: 9px;
   margin: 0;
-  transition: 0.2s;
-  color: #422040;
+  transition: 0.6s;
+  color: black;
 }
+html,
 body {
   background-color: #422040;
   width: 100%;
@@ -11,16 +11,29 @@ body {
   display: flex;
 }
 .wrapper {
-  height: 100px;
+  padding: 9px;
+  border-radius: 9px;
+  height: 300px;
   width: 300px;
   background-color: #E57A44;
   font-size: 20px;
   margin-top: 50px;
   margin-left: 10px;
-  color: #422040;
+  display: flex;
+}
+footer {
+  background-color: #E57A44;
+  height: 40px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  border-radius: 0;
+  padding-top: 9px;
 }
 nav {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   height: 40px;
@@ -29,36 +42,34 @@ nav {
   display: flex;
   justify-content: right;
   align-items: center;
+  border-radius: 0;
+  font-family: "Comic Sans MS", sans-serif;
 }
 .navWrapper {
   position: fixed;
   top: 40px;
   right: 0;
-  height: 200px;
+  height: auto;
   width: 100px;
-  background-color: #E3D985;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
+  background-color: #E57A44;
+  color: #E3D985;
 }
 a {
-  color: #422040;
   margin: 0 8px;
   text-decoration: none;
 }
 .dropDownMenu {
   height: 100%;
   width: 40px;
-  background-color: #E57A44;
   position: absolute;
   top: 0;
   right: 0;
   display: block;
-}
-.dropDownFa {
-  justify-content: center;
-  align-items: center;
 }
 .toggle {
   display: none;
@@ -74,24 +85,16 @@ a {
     background-color: transparent;
     flex-direction: row;
     top: 0;
+    right: 0;
   }
-}
-footer {
-  background-color: #E57A44;
-  height: 40px;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  display: flex;
-  justify-content: center;
 }
 .home {
   font-family: "Agency FB", serif;
 }
 .about {
-  font-family: Arial, serif;
+  font-family: Jokerman, serif;
 }
 .contact {
-  font-family: Calibri, serif;
+  font-family: "Dubai Light", sans-serif;
 }
 /*# sourceMappingURL=style.css.map */

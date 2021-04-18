@@ -1,11 +1,9 @@
-nav {
+.navigation {
   position: absolute;
-  top: 0;
   height: 40px;
   width: 100%;
   display: flex;
-  right: 0;
-  background-color: red;
+  justify-content: right;
 }
 .navWrapper {
   position: absolute;

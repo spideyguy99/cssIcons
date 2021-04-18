@@ -1,21 +1,33 @@
+@import "variables";
 nav{
   position: absolute;
   top: 0;
+  right: 0;
   height: 40px;
   width: 100%;
+  background-color: @primary;
   display: flex;
-  right: 0;
-  background-color: red;
+  justify-content: right;
+  align-items: center;
+  border-radius: 0;
+  font-family: "Comic Sans MS", sans-serif;
 }
+
 .navWrapper{
-  position: absolute;
+  position: fixed;
   top: 40px;
   right: 0;
-  height: 200px;
+  height: auto;
   width: 100px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: @primary;
+  color: @secondary;
 }
+
 a{
   margin: 0 8px;
   text-decoration: none;
@@ -28,11 +40,6 @@ a{
   top: 0;
   right: 0;
   display: block;
-}
-
-.dropDownFa{
-  justify-content: center;
-  align-items: center;
 }
 
 .toggle{
@@ -50,5 +57,6 @@ a{
     background-color: transparent;
     flex-direction: row;
     top: 0;
+    right: 0;
   }
 }
